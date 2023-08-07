@@ -5,9 +5,11 @@ public class Demo10 {
 	public static void main(String[] args) {
 		String a = "selenium";
 		
-		for (int i = a.length() - 1; i >= 0; i--) 
+		char [] abc = a.toCharArray();
+		
+		for (int i = abc.length - 1; i >= 0; i--) 
 		{
-			System.out.print(a.charAt(i));
+			System.out.print(abc[i]);
 		}
 		
 
