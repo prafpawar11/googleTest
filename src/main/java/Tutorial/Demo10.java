@@ -9,6 +9,18 @@ public class Demo10 {
 		StringBuffer sb = buffer.reverse();
 		System.out.println(sb);
 		
+
+
+System.out.println(sb);System.out.println(sb);System.out.println(sb);System.out.println(sb);
+
+
+
+System.out.println(sb);
+		System.out.println(sb);
+		System.out.println(sb);
+		
+
+
 		
 
 	}
