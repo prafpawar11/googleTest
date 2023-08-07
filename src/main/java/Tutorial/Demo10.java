@@ -9,6 +9,7 @@ public class Demo10 {
 		{
 			System.out.print(a.charAt(i));
 		}
+		
 
 	}
 
