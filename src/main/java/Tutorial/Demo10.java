@@ -5,12 +5,10 @@ public class Demo10 {
 	public static void main(String[] args) {
 		String a = "selenium";
 		
-		char [] abc = a.toCharArray();
+		StringBuffer buffer =new StringBuffer(a);
+		StringBuffer sb = buffer.reverse();
+		System.out.println(sb);
 		
-		for (int i = abc.length - 1; i >= 0; i--) 
-		{
-			System.out.print(abc[i]);
-		}
 		
 
 	}
